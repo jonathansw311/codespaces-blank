@@ -1,0 +1,151 @@
+.game{
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  
+    }
+  
+  body{
+  background-color: lightblue;
+  text-align: center;
+  font-family: Helvetica;
+  }
+  
+  .cContainer{
+    width: 202px;
+    height: 240px;
+    background-color: white;
+    border-radius: 6px;
+  
+    padding: 3px;
+  
+  }
+   
+  
+  
+  .card {
+    position: relative;
+    left: -9px;
+    top: -9px;
+    border: 0px solid black;
+    width: 200px;
+    height: 238px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: white;
+    
+     
+  }
+  
+  .curScore{
+  position: relative;
+  height: 75px;
+  width: 250px;
+  background-color: brown;;
+  border-radius: 6px;
+  top: 50px;
+  left: 300px;
+  color: white;
+  padding-right: 310px;
+  padding: 20px;
+  }
+  
+  
+  .innerDivZero
+  {
+    position: relative;
+  width: 200px;
+  height: 200px;
+  left: 60px;
+  top: 25px;
+  left: 1px;
+  background-color: skyblue;
+  border-radius: 50%;
+  pointer-events: none;
+  
+  }
+  
+  
+  .innerDivOne
+  {
+    position: relative;
+  width: 10px;
+  height: 150px;
+  left: 60px;
+  top: -145px;
+  transform: rotate(340deg);
+  background-color: lightgrey;
+  border-radius: 100vw;
+  pointer-events: none;
+  
+  }
+  
+  .innerDivTwo
+  {
+    position: relative;
+  width: 10px;
+  height: 150px;
+  left: 148px;
+  top: -295px;
+  transform: rotate(20deg);
+  background-color: lightgrey;
+  border-radius: 100vw;
+  pointer-events: none;
+  
+  }
+  
+  .innerDivThree
+  {
+    position: relative;
+  width: 10px;
+  height: 50px;
+  left: 95px;
+  top: -348px;
+  transform: rotate(20deg);
+  background-color: lightgrey;
+  border-radius: 100vw;
+  pointer-events: none
+  }
+  .innerDivFour
+  {
+    position: relative;
+  width: 10px;
+  height: 50px;
+  left: 113px;
+  top: -398px;
+  transform: rotate(340deg);
+  background-color: lightgrey;
+  border-radius: 100vw;
+  pointer-events: none
+  }
+  
+  .clicked{
+    visibility: hidden;
+  
+  
+  }
+  .rDiv{
+  
+    position: relative;
+   margin: auto;
+   top: -50px;
+   left: 50px;
+  }
+  
+  .rButton{
+  position: relative;
+  left: 25px;
+  border-radius: 6px;
+  border-color: transparent;
+  }
+  
+  
+  .author{
+  
+    padding-top: 45px;
+    
+  }
